@@ -10,13 +10,13 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
   var sum = a + b;
-  var message = 'the sum of' + a + ' and ' + b + 'is ' + sum + ',';
+  var message = 'The sum of ' + a + ' and ' + b + ' is ' + sum + '.';
   var output = [sum, message];
   return output;
 }
 
 // Here is the test for sum(); uncomment it to run it
-testsum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
