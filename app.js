@@ -58,8 +58,8 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   var totalSum = sum(a, (sum(b, c))).toString();
   var multiplyNumbers = multiply(a, multiply(b, c)).toString();;
   var addMessage = a + ' and ' + b + ' and ' + c + 'add up to' + totalSum + '.';
-  var multiplyMessage = ' The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multiplyNumbers;
-  var lastLine = [addition, addMessage, ];
+  var sumandMultiplymessage = ' The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + multiplyNumbers;
+  var lastLine = [totalSum, multiplyNumbers, addMessage, sumandMultiplymessage];
   return lastLine;
 }
 // Here is the test for sumAndMultiply(); uncomment it to run it
