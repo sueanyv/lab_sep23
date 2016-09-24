@@ -106,8 +106,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(testArray) { //eslint-disable-line
-  var arrayMulta = arrayMulta(testArray[0], arrayMulta(testArray[1], testArray[2])[0])[0];
-  var arrayMmessage = ' The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + arrayMulta + '.';
+  var arrayMulta = multiply(testArray[0], multiply(testArray[1], testArray[2])[0])[0];
+  var arrayMmessage = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + arrayMulta + '.';
   var multiLine = [arrayMulta, arrayMmessage];
   console.log(multiLine);
   return multiLine;
